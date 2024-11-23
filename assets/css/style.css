@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.bg-color {
+    background-color: #F6E300;
+}
+
+.head {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+}
+
+.enim {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+    opacity: 70%;
+    padding-left: 30px;
+    max-width: 866px;
+}
+
+.amet {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    padding-left: 10px;
+}
+
+.accordion {
+    padding-top: 26px;
+    width: 922px;
+}
+
+.background-color {
+    background-color: #FFF03F !important;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.pt-50 {
+    padding-top: 50px;
+}
+
+.accordion {
+    --bs-accordion-border-color: none !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
+}
+
+/***** section 2 *****/
+
+.bg-img {
+    background-image: url(../images/bg-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.head-1 {
+    background: -webkit-linear-gradient(180deg, #815CC8 0%, #1BABFE 100%);
+    background-clip: text;
+    color: transparent;
+}
+
+.lorem {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    padding-left: 8px;
+    opacity: 70%;
+}
+
+.lectus {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+}
+
+.bg-black {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.03) 100%);
+    backdrop-filter: blur(40px);
+    background-clip: text;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.section-2 .accordion {
+    width: 1038px;
+    padding-top: 80px;
+}
+
+.pl-19 {
+    padding-left: 19px;
+}
+
+.section-2 .accordion-item {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.03) 100%) !important;
+    border: 3px solid;
+    border-image-source: linear-gradient(180deg, rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0.04) 100%) !important;
+    backdrop-filter: blur(40px) !important;
+    border-radius: 6px;
+}
+
+.section-2 .accordion-button {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.03) 100%) !important;
+}
+
+/****** section 3 ******/
+.bg-img-2 {
+    background-image: url(../images/bg-img-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.accordion-item-3 {
+    margin-top: 33px !important;
+    border: 1px solid #1EADB6 !important;
+    border-top-left-radius: 45px !important;
+    border-bottom-right-radius: 32px !important;
+}
+
+.rightbottom-svg {
+    bottom: -3.9%;
+    right: -0.1%;
+}
+
+.lh-29 {
+    line-height: 29.26px;
+}
+
+.head-2 {
+    font-family: "Audiowide", sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 81.59px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.accordion {
+    --bs-accordion-active-bg: none !important;
+    --bs-accordion-bg: none !important;
+}
+
+.dui {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.26px;
+    padding-left: 60px;
+}
+
+.accordion-body-3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 60px;
+    padding-top: 15px;
+    color: white;
+}

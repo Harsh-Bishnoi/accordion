@@ -11,6 +11,13 @@
     font-size: 48px;
     font-weight: 700;
     line-height: 72px;
+    text-align: center;
+}
+
+.head-1 {
+    background: -webkit-linear-gradient(180deg, #815CC8 0%, #1BABFE 100%);
+    background-clip: text;
+    color: transparent;
 }
 
 .enim {
@@ -65,12 +72,6 @@
     background-position: center;
 }
 
-.head-1 {
-    background: -webkit-linear-gradient(180deg, #815CC8 0%, #1BABFE 100%);
-    background-clip: text;
-    color: transparent;
-}
-
 .lorem {
     font-family: "Poppins", sans-serif;
     font-size: 18px;
@@ -85,12 +86,6 @@
     font-size: 18px;
     font-weight: 500;
     line-height: 27px;
-}
-
-.bg-black {
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.03) 100%);
-    backdrop-filter: blur(40px);
-    background-clip: text;
 }
 
 .mb-20 {

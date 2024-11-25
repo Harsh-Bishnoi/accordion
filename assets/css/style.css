@@ -101,6 +101,10 @@
     padding-left: 19px;
 }
 
+.pl-50 {
+    padding-left: 50px;
+}
+
 .section-2 .accordion-item {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.03) 100%) !important;
     border: 3px solid;

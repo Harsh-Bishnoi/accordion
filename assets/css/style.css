@@ -105,12 +105,8 @@
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.03) 100%) !important;
     border: 3px solid;
     border-image-source: linear-gradient(180deg, rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0.04) 100%) !important;
-    backdrop-filter: blur(40px) !important;
+    backdrop-filter: blur(10px) !important;
     border-radius: 6px;
-}
-
-.section-2 .accordion-button {
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.03) 100%) !important;
 }
 
 /****** section 3 ******/

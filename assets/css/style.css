@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/***** section 1 *****/
+
 .bg-color {
     background-color: #F6E300;
 }
@@ -12,12 +14,6 @@
     font-weight: 700;
     line-height: 72px;
     text-align: center;
-}
-
-.head-1 {
-    background: -webkit-linear-gradient(180deg, #815CC8 0%, #1BABFE 100%);
-    background-clip: text;
-    color: transparent;
 }
 
 .enim {
@@ -36,6 +32,7 @@
     font-weight: 600;
     line-height: 27px;
     padding-left: 10px;
+    color: black;
 }
 
 .accordion {
@@ -63,6 +60,8 @@
     box-shadow: none !important;
 }
 
+/***** section 1 end  *****/
+
 /***** section 2 *****/
 
 .bg-img {
@@ -72,12 +71,17 @@
     background-position: center;
 }
 
+.head-1 {
+    background: -webkit-linear-gradient(180deg, #815CC8 0%, #1BABFE 100%);
+    background-clip: text;
+    color: transparent;
+}
+
 .lorem {
     font-family: "Poppins", sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 27px;
-    padding-left: 8px;
     opacity: 70%;
 }
 
@@ -97,8 +101,8 @@
     padding-top: 80px;
 }
 
-.pl-19 {
-    padding-left: 19px;
+.arrow {
+    font-size: 30px;
 }
 
 .pl-50 {
@@ -107,13 +111,26 @@
 
 .section-2 .accordion-item {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.03) 100%) !important;
-    border: 3px solid;
-    border-image-source: linear-gradient(180deg, rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0.04) 100%) !important;
     backdrop-filter: blur(10px) !important;
+    position: relative;
     border-radius: 6px;
 }
 
+.section-2 .accordion-item::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 3px;
+    border-radius: 6px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.03) 100%);
+    mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+    mask-composite: exclude;
+}
+
+/***** section 2 end  *****/
+
 /****** section 3 ******/
+
 .bg-img-2 {
     background-image: url(../images/bg-img-2.png);
     background-size: cover;
@@ -125,12 +142,19 @@
     margin-top: 33px !important;
     border: 1px solid #1EADB6 !important;
     border-top-left-radius: 45px !important;
-    border-bottom-right-radius: 32px !important;
+    border-bottom-right-radius: 35px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
 }
 
 .rightbottom-svg {
-    bottom: -3.9%;
-    right: -0.1%;
+    bottom: -1%;
+    right: -0.2%;
+}
+
+.lefttop-svg {
+    top: -1%;
+    left: -0.1%;
 }
 
 .lh-29 {
@@ -156,7 +180,7 @@
     font-size: 24px;
     font-weight: 600;
     line-height: 29.26px;
-    padding-left: 60px;
+    padding-left: 35px;
 }
 
 .accordion-body-3 {
@@ -164,7 +188,15 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    margin-left: 60px;
+    margin-left: 30px;
     padding-top: 15px;
     color: white;
 }
+
+.border-shadow {
+    -webkit-box-shadow: 3px -3px 15px -2px rgba(30, 173, 182, 1);
+    -moz-box-shadow: 3px -3px 15px -2px rgba(30, 173, 182, 1);
+    box-shadow: 3px -3px 15px -2px rgba(30, 173, 182, 1);
+}
+
+/***** section 3 end *****/

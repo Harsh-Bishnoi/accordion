@@ -60,6 +60,16 @@
     box-shadow: none !important;
 }
 
+.accordion-button::after {
+    width: 20px !important;
+    background-image: url(../images/up-arrow.svg) !important;
+    transform: rotate(180deg);
+}
+
+.accordion-button:not(.collapsed)::after {
+    transform: rotate(0deg) !important;
+}
+
 /***** section 1 end  *****/
 
 /***** section 2 *****/
@@ -127,6 +137,11 @@
     mask-composite: exclude;
 }
 
+.section-2 .accordion-button::after {
+    width: 20px !important;
+    background-image: url(../images/section-2-up\ -arrow.svg) !important;
+    transform: rotate(180deg);
+}
 /***** section 2 end  *****/
 
 /****** section 3 ******/
@@ -199,4 +214,9 @@
     box-shadow: 3px -3px 15px -2px rgba(30, 173, 182, 1);
 }
 
+.section-3 .accordion-button::after {
+    width: 20px !important;
+    background-image: url(../images/section-3-up-arrow.svg) !important;
+    transform: rotate(180deg);
+}
 /***** section 3 end *****/
